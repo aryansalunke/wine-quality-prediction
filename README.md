@@ -171,19 +171,3 @@ wine-quality-prediction/
 Multiple machine learning approaches were explored during development. The models were evaluated using Root Mean Squared Error (RMSE) on unseen test data. A lower RMSE indicates that the model's predictions are, on average, closer to the actual quality scores.
 
 The current Flask application uses the trained LightGBM regression model for predictions.
-
-## Future Improvements
-
-- Use an end-to-end preprocessing and model pipeline
-- Prevent preprocessing leakage by fitting transformations only on training data
-- Add stronger server-side input validation and feature-range checks
-- Add automated testing
-- Add model versioning and monitoring
-- Deploy the application to a cloud platform
-- Retrain the model periodically with new representative data
-
-## Author
-
-Aryan Salunke
-
-Built as a machine learning and full-stack project to explore the complete workflow from data preprocessing and model training to deploying a trained model through a Flask web application.
