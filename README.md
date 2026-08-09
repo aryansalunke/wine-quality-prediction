@@ -4,6 +4,12 @@ A machine learning web application that predicts wine quality based on its physi
 
 The project uses supervised machine learning to learn the relationship between characteristics such as acidity, alcohol, pH, sulphates, density, and sugar content and the quality score assigned to the wine.
 
+## Live Demo
+
+https://wine-quality-prediction-f1ko.onrender.com
+
+Open the link, fill in the wine properties, and hit Predict. The model will return a predicted quality score between 0 and 10.
+
 ## Features
 
 - Predict wine quality from 12 physicochemical features
